@@ -1,0 +1,111 @@
+html * {
+    /* background: #830ca156; 
+    outline: 2px dotted black; */
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    color: #8499b6;
+}
+
+html{
+    background:#0d1a2d;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 330px;
+    height: 595px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-size: 18px;
+    gap: 20px;
+    background: #15273f;
+    border-radius: 15px;
+    box-shadow: 0px 20px  40px 15px #0c1729;
+}
+
+strong{
+    font-weight: 00;
+    color: white;
+    cursor: pointer;
+}
+
+#previewImageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00f5f2;
+    position: relative;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#viewIcon{
+    position: absolute;
+    visibility: hidden;
+    z-index: 2;
+}
+
+#nftPreviewImage{
+    border-radius: 15px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#nftName{
+    font-size:25px;
+    color: white;
+    cursor: pointer;
+}
+
+.nftInfo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nftInfoIcon{
+    width: fit-content;
+    height: 20px;
+}
+
+#nftInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#price{
+    font-weight: 600;
+    color: #00f5f2;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin-top: 10px;
+    gap: 15px;
+    border-top: 1px solid #2f4159;
+}
+
+#profilePicture{
+    width: 40px;
+    height: fit-content;
+    border: 2px solid white ;
+    border-radius: 100px;
+}
+
+#nftPreviewImage:hover{
+    opacity: 50%;
+}
+
+#previewImageWrapper:hover #viewIcon{
+    visibility: visible;
+}
