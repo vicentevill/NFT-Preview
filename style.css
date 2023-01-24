@@ -99,7 +99,7 @@ strong{
 
 #profilePicture{
     width: 40px;
-    height: fit-content;
+    height: 40px;
     border: 2px solid white ;
     border-radius: 100px;
 }
